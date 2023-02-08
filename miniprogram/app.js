@@ -13,7 +13,16 @@ App({
         traceUser: true,
       });
     }
-
+    wx.cloud.callFunction({
+      name: "quickstartFunctions",
+      success: function(res){
+        console.log(123);
+        console.log(res);
+      },
+      fail: ()=>{
+        console.log('error');
+      }
+    });    
     this.globalData = {};
   }
 });
