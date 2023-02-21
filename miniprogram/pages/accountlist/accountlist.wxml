@@ -1,0 +1,28 @@
+<!--pages/accountlist/accountlist.wxml-->
+<view class="container">
+  <view class="swiperList">
+    <image src="https://636c-cloud1-0gapi94y2e973402-1316761004.tcb.qcloud.la/systemimage/singlelist.png?sign=b2e74ad966983ad81614a0f46e159cb8&t=1675912288" mode="aspectFit" class="styleToggle"/>
+    <swiper class="accountList" next-margin="75rpx" previous-margin="75rpx">
+      <swiper-item class="firstPage">
+        <view class="createAccount">
+          <view class="slogan">
+            <text>旅行中的每一笔开支\n都有独特的意义！</text>
+          </view>
+          <view class="addMark">+</view>
+          <view class="explain">创建一个新帐本</view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class="accountPage">
+          <image src="https://636c-cloud1-0gapi94y2e973402-1316761004.tcb.qcloud.la/systemimage/BeeEasyBee.png?sign=41250f29de8cf096a0e6a2a8f29aa3aa&t=1676991705" mode="aspectFill" class="accountImg"/>
+          <view class="accountTitle"><text>江财一日游</text></view>
+          <view class="accountDate"><text>2023-02-21</text></view>
+          <view class="editAccount">
+            <image src="https://636c-cloud1-0gapi94y2e973402-1316761004.tcb.qcloud.la/systemimage/delete.png?sign=57f1ec957763d527c92b436520063b8b&t=1676994289" mode="aspectFit" class="delete"/>
+            <image src="https://636c-cloud1-0gapi94y2e973402-1316761004.tcb.qcloud.la/systemimage/edit.png?sign=7d77205e54dcb27b341598d3b7b858a7&t=1676994147" mode="aspectFit" class="edit"/>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

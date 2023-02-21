@@ -6,7 +6,6 @@ cloud.init({
 exports.main = async (event, context) => {
   // 获取基础信息
   const wxContext = cloud.getWXContext();
-  console.log(wxContext.OPENID);
   return {
     openid: wxContext.OPENID,
     appid: wxContext.APPID,
